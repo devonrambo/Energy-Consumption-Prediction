@@ -10,12 +10,8 @@ The dataset was sliced into 5 different features:  <br />
   ⦁ 	Day of the Week  <br />
   ⦁	  Month  <br />
   ⦁	  Year  <br />
-  ⦁	  Temperature  <br />
-⦁	Initially a linear regression model was attempted, but it then became clear most of these features had “bends” and couldn’t be accurately modeled linearly  <br />
-⦁	I found a python library ⦁	pyGAM that allows one to build custom models based on different qualities of the features. <br />
-⦁	In this case a spline regression general additive model was used for our features which does an excellent job of accounting for small twists in the data <br />
-⦁	This essentially applies a different function to each feature, rather than a linear or polynomial slope. <br />
-⦁	A random 80% of the data was used to train the model, and the other 20% was used to test the model’s predictive power <br />
+  ⦁	  Temperature  <br /> <br />
+Initially a linear regression model was attempted, but it then became clear most of these features had “bends” and couldn’t be accurately modeled linearly. I found a python library pyGAM that allows one to build custom models based on different qualities of the features. In this case a spline regression general additive model was used for our features which does an excellent job of accounting for small twists in the data. This essentially applies a different function to each feature, rather than a linear or polynomial slope. A random 80% of the data was used to train the model, and the other 20% was used to test the model’s predictive power <br /> <br />
 
 ### Sources
 
