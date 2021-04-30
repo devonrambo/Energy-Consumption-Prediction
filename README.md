@@ -4,9 +4,8 @@
 This project used a Kaggle dataset of AEP’s eastern grid’s hourly energy consumption from December 2004 – December 2018. This was combined with a dataset containing hourly temperature information. The algorithm is able to predict the energy consumption of any given hour with an R^2 of 0.77.
 
 ### Methods
-⦁	After examining a map of AEP’s eastern grid, and seeing which cities were available in the temperature dataset, Indianapolis was elected to be used as the baseline temperature  <br />
-⦁	The temperature dataset only contained info from 2013 – 2017, so this was the time frame used  <br />
-⦁	The dataset was sliced into 5 different features  <br />
+After examining a map of AEP’s eastern grid, and seeing which cities were available in the temperature dataset, Indianapolis was elected to be used as the baseline temperature. The temperature dataset only contained info from 2013 – 2017, so this was the time frame used.
+The dataset was sliced into 5 different features:  <br />
   ⦁	  Hour of the Day  <br />
   ⦁ 	Day of the Week  <br />
   ⦁	  Month  <br />
