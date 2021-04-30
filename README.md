@@ -15,7 +15,7 @@ Initially a linear regression model was attempted, but it then became clear most
 
 ### Sources
 
-The initial data was pulled from Rob Mulla’s Kaggle (kaggle.com/robikscube) as well as David Beniaguev’s page (www.kaggle.com/selfishgene). Also, pyGAM has done extensive work with generalized additive models, which you can read more about here (https://pygam.readthedocs.io/en/latest/notebooks/tour_of_pygam.html). 
+The initial data was pulled from Rob Mulla’s Kaggle (www.kaggle.com/robikscube) as well as David Beniaguev’s page (www.kaggle.com/selfishgene). Also, pyGAM has done extensive work with generalized additive models, which you can read more about here (https://pygam.readthedocs.io/en/latest/notebooks/tour_of_pygam.html). 
 
 
 
